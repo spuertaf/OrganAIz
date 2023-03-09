@@ -13,4 +13,4 @@ TaskID,TaskType,Name,AvgTime,Urgency,TimeStart,Deadline,Location,IsHobby,Recurre
 12,7,ver netflix,60,3,10.55,8,casa,True,3,afternoon,,6,
 13,8,reunirse con amigos,80,4,13,8,casaAmigos,True,2,afternoon,amigos,6,
 14,9,ordenar el cuarto,45,4,12.30,5,casa,False,5,afternoon,,7,
-15,3,jugar con el perro,30,6,13,7,casa,False,6,morning,perro,3,
+15,3,jugar con el perro,30,6,13,7,casa,False,6,morning,perro,7,
