@@ -5,7 +5,7 @@ TaskID,TaskType,Name,AvgTime,Urgency,TimeStart,Parent,
 4,4,hacer la tarea,60,7,9:50,2,
 5,4,estudiar para el parcial,65,9,10:00,2,
 6,5,hacer estiramientos,10,2,9:00,3,
-7,6,regar plantas,15,7,10:05,3
+7,6,regar plantas,15,7,10:05,3,
 8,1,almorzar,40,4,12:00,4,
 9,5,hacer ejercicio,50,3,10:30,4,
 10,7,escuchar musica,20,1,11:00,5,
