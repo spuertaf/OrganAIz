@@ -1,4 +1,5 @@
 sameLocation(X,Y) :- inLocation(X,Z), inLocation(Y,Z) -> sameLocation(X,Y). 
+
 isAgent(Ricardo)isTask(bañarse)
 inLocation(bañarse,casa)
 hasDeadline(bañarse,1)
