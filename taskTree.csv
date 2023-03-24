@@ -1,0 +1,16 @@
+TaskID,TaskType,Name,AvgTime,Urgency,TimeStart,Deadline,Location,IsHobby,Recurrency,BestOn,Involves,Parent
+1,1,desayunar,40,5,480,1,casa,False,7,morning,,
+2,2,bañarse,45,2,525,1,casa,False,6,morning,,1.0
+3,3,sacar al perro,30,5,530,2,casa,False,7,morning,perro,1.0
+6,5,hacer estiramientos,10,2,540,7,casa,False,4,morning,,1.0
+4,4,hacer la tarea,60,7,590,5,biblioteca,False,5,afternoon,,2.0
+5,4,estudiar para el parcial,65,9,600,2,biblioteca,False,2,afternoon,,2.0
+7,6,regar plantas,15,7,605,5,casa,False,2,morning,plantas,2.0
+9,5,hacer ejercicio,50,3,630,4,gimnasio,False,5,afternoon,,7.0
+11,4,leer documentacion,50,5,645,6,biblioteca,False,4,afternoon,companierosDeClase,7.0
+12,7,ver netflix,60,3,655,8,casa,True,3,afternoon,,4.0
+10,7,escuchar musica,20,1,660,7,casa,True,2,morning,,4.0
+8,1,almorzar,40,4,720,1,restaurante,False,7,afternoon,amigos,5.0
+14,9,ordenar el cuarto,45,4,750,5,casa,False,5,afternoon,,12.0
+13,8,reunirse con amigos,80,4,780,8,casaAmigos,True,2,afternoon,amigos,8.0
+15,3,jugar con el perro,30,6,780,7,casa,False,6,morning,perro,8.0
