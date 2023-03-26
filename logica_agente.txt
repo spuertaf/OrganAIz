@@ -1,11 +1,24 @@
-sameLocation(X,Y) :- inLocation(X,Z), inLocation(Y,Z) -> sameLocation(X,Y). 
-
-isAgent(Ricardo)isTask(bañarse)
-inLocation(bañarse,casa)
-hasDeadline(bañarse,1)
-hasUrgency(bañarse,2)
-isBestOn(bañarse,morning)
-involvesWho(bañarse,nan)
+sameLocation(X,Y) :- inLocation(X,Z1), inLocation(Y,Z2), Z1 == Z2 -> sameLocation(X,Y).
+differentLocation(X,Y) :- inLocation(X,Z1), inLocation(Y,Z2), Z1 \= Z2 -> differentLocation(X,Y).
+differentDuration(X,Y) :- taskDuration(X,D1), taskDuration(Y,D2), D1 \= D2 -> differentDuration(X,Y).
+higherUrgency(X,Y) :- hasUrgency(X,U1), hasUrgency(Y,U2), U1 > U2 -> higherUrgency(X,Y).
+isDailyTask(X) :- taskRecurrency(X,R), R >= 7 -> isDailyTask(X).
+isWeeklyTask(X) :- taskRecurrency(X,R), R < 7, R > 1 -> isWeeklyTask(X).
+isMonthlyTask(X) :- taskRecurrency(X,R), R == 1 -> isMonthlyTask(X).
+isAgent(Ricardo)
+isTask(desayunar)
+inLocation(desayunar,casa)
+hasDeadline(desayunar,1)
+hasUrgency(desayunar,5)
+isBestOn(desayunar,morning)
+inTodaysSchedule(desayunar)
+involvesWho(desayunar,nan)
+isTask(baÃ±arse)
+inLocation(baÃ±arse,casa)
+hasDeadline(baÃ±arse,1)
+hasUrgency(baÃ±arse,2)
+isBestOn(baÃ±arse,morning)
+involvesWho(baÃ±arse,nan)
 isTask(hacer la tarea)
 inLocation(hacer la tarea,biblioteca)
 hasDeadline(hacer la tarea,5)
@@ -90,7 +103,7 @@ involvesWho(jugar con el perro,perro)
 isHobby(escuchar musica)
 isHobby(ver netflix)
 isHobby(reunirse con amigos)
-isHabit(bañarse)
+isHabit(baÃ±arse)
 isHabit(hacer la tarea)
 isHabit(almorzar)
 isHabit(hacer ejercicio)
