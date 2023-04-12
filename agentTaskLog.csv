@@ -1,0 +1,22 @@
+TaskID,TaskType,Name,AvgTime,Urgency,TimeStart,Deadline,Location,IsHobby,Recurrency,BestOn,Involves,Parent,dayOfWeek,timeEnds
+1,1,desayunar,40,5,480,1,casa,False,7,morning,,,monday,525
+3,3,sacar al perro,50,6,530,1,casa,False,7,morning,perro,1,monday,575
+5,4,estudiar para el parcial,65,9,600,2,biblioteca,False,2,afternoon,,3,monday,670
+8,1,almorzar con amigos,40,4,720,1,restaurante,False,7,afternoon,amigos,5,monday,780
+1,1,desayunar,40,5,485,1,casa,False,7,morning,,,tuesday,520
+2,2,bañarse,45,2,525,1,casa,False,6,morning,,1,tuesday,580
+4,7,escuchar musica,20,1,600,7,casa,True,2,morning,,2,tuesday,635
+6,2,limpiar la casa,60,4,640,4,casa,False,3,morning,,4,tuesday,700
+7,1,almorzar,55,3,730,1,restaurante,False,7,afternoon,,6,tuesday,790
+9,4,hacer la tarea,60,8,800,3,casa,False,4,morning,,7,tuesday,865
+1,2,bañarse,30,6,500,2,casa,False,5,morning,,,wednesday,535
+3,4,leer documentacion,55,8,550,4,biblioteca,False,4,morning,,1,wednesday,605
+4,8,reunirse con amigos,80,4,615,5,casa de amigo,True,2,afternoon,amigos,3,wednesday,700
+5,1,almorzar con amigos,55,2,720,4,restaurante,False,1,afternoon,amigos,4,wednesday,780
+6,8,hacer entrega,65,8,790,6,casa de compañero,False,2,afternoon,compañero,5,wednesday,860
+1,6,regar las plantas,30,2,460,2,casa,False,3,morning,plantas,,thursday,500
+2,1,desayunar,45,5,505,1,casa,False,7,morning,,1,thursday,560
+4,4,hacer la tarea,50,8,620,5,casa,False,4,afternoon,,2,thursday,675
+5,3,jugar con mascota,40,5,685,2,casa,False,3,morning,perro,4,thursday,740
+7,1,almorzar,55,7,800,1,casa,False,7,afternoon,,5,thursday,860
+9,8,escuchar musica,40,1,850,7,casa,True,2,afternoon,,7,thursday,900
