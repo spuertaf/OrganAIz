@@ -1,3 +1,7 @@
 TaskID,TaskType,Name,AvgTime,Urgency,TimeStart,Deadline,Location,IsHobby,Recurrency,BestOn,Involves,Parent
 1,Tris,aspirar la casa,40,5,10 minutos,6,mi casa,rancho,Tris,mañana,no
 2,Tris,aspirar la casa,40,5,10 minutos,6,mi casa,rancho,Tris,mañana,no
+3,Tris,aspirar la casa,40,5,10 minutos,6,mi casa,rancho,Tris,mañana,no
+4,3,aspirar la casa,40,5,10 minutos,6,mi casa,falso,Tris,mañana,no
+5,3,aspirar la casa,40,5,10:25,6,mi casa,falso,Tris,mañana,no
+6,3,aspirar la casa,40,5,10:25,6,mi casa,falso,Tris,mañana,no
