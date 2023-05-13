@@ -5,7 +5,7 @@ higherUrgency(X,Y) :- hasUrgency(X,U1), hasUrgency(Y,U2), U1 > U2 -> higherUrgen
 isDailyTask(X) :- taskRecurrency(X,R), R >= 7 -> isDailyTask(X).
 isWeeklyTask(X) :- taskRecurrency(X,R), R < 7, R > 1 -> isWeeklyTask(X).
 isMonthlyTask(X) :- taskRecurrency(X,R), R == 1 -> isMonthlyTask(X).
-isAgent(Ricardo)
+isAgent( )
 isTask(desayunar,True)
 inLocation(desayunar,casa)
 hasDeadline(desayunar,1)
@@ -138,4 +138,3 @@ taskRecurrency(jugar con el perro,6)
 inTodaysSchedule(jugar con el perro,True)
 involvesWho(jugar con el perro,perro)
 isHabit(jugar con el perro,True)
-
