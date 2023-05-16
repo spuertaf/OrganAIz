@@ -1,16 +1,16 @@
-TaskID,TaskType,Name,AvgTime,TimeStart,Deadline,Location,IsHobby,Recurrency,BestOn,Involves,Parent,Unnamed: 12,Urgency
-1,1,desayunar,40,8.0,1,casa,False,7,morning,,,,-8.0
-2,2,bañarse,45,8.45,1,casa,False,6,morning,,1.0,,-12.5
-3,3,sacar al perro,30,8.5,2,casa,False,7,morning,perro,1.0,,14.5
-4,4,hacer la tarea,60,9.5,5,biblioteca,False,5,afternoon,,2.0,,1.9
-5,4,estudiar para el parcial,65,10.0,2,biblioteca,False,2,afternoon,,2.0,,2.35
-6,5,hacer estiramientos,10,9.0,7,casa,False,4,morning,,3.0,,1.54
-7,6,regar plantas,15,10.5,5,casa,False,2,morning,plantas,3.0,,1.9
-8,1,almorzar,40,12.0,1,restaurante,False,7,afternoon,amigos,4.0,,-8.0
-9,5,hacer ejercicio,50,10.3,4,gimnasio,False,5,afternoon,,4.0,,-3.5
-10,7,escuchar musica,20,11.0,7,casa,True,2,morning,,5.0,,2.35
-11,4,leer documentacion,50,10.45,6,biblioteca,False,4,afternoon,companierosDeClase,5.0,,-6.2
-12,7,ver netflix,60,10.55,8,casa,True,3,afternoon,,6.0,,1.18
-13,8,reunirse con amigos,80,13.0,8,casaAmigos,True,2,afternoon,amigos,6.0,,1.18
-14,9,ordenar el cuarto,45,12.3,5,casa,False,5,afternoon,,7.0,,-5.75
-15,3,jugar con el perro,30,13.0,7,casa,False,6,morning,perro,7.0,,6.4
+TaskID,TaskType,Name,AvgTime,TimeStart,Deadline,Location,IsHobby,Recurrency,BestOn,Involves,Parent,Urgency
+1,1,desayunar,40,8.0,1,casa,False,7,morning,,,-8.0
+2,2,bañarse,45,8.45,1,casa,False,6,morning,,1.0,-12.5
+3,3,sacar al perro,30,8.5,2,casa,False,7,morning,perro,1.0,14.5
+4,4,hacer la tarea,60,9.5,5,biblioteca,False,5,afternoon,,2.0,1.9
+5,4,estudiar para el parcial,65,10.0,2,biblioteca,False,2,afternoon,,2.0,2.35
+6,5,hacer estiramientos,10,9.0,7,casa,False,4,morning,,3.0,1.54
+7,6,regar plantas,15,10.5,5,casa,False,2,morning,plantas,3.0,1.9
+8,1,almorzar,40,12.0,1,restaurante,False,7,afternoon,amigos,4.0,-8.0
+9,5,hacer ejercicio,50,10.3,4,gimnasio,False,5,afternoon,,4.0,-3.5
+10,7,escuchar musica,20,11.0,7,casa,True,2,morning,,5.0,2.35
+11,4,leer documentacion,50,10.45,6,biblioteca,False,4,afternoon,companierosDeClase,5.0,-6.2
+12,7,ver netflix,60,10.55,8,casa,True,3,afternoon,,6.0,1.18
+13,8,reunirse con amigos,80,13.0,8,casaAmigos,True,2,afternoon,amigos,6.0,1.18
+14,9,ordenar el cuarto,45,12.3,5,casa,False,5,afternoon,,7.0,-5.75
+15,3,jugar con el perro,30,13.0,7,casa,False,6,morning,perro,7.0,6.4
