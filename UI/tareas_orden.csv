@@ -20,3 +20,5 @@ TaskID,TaskType,Name,AvgTime,Urgency,TimeStart,Deadline,Location,IsHobby,Recurre
 19,pasear,Gustos,20,2,750,2,casa,True,3,Morning, ,17.0
 20,ss,2,23,3,670,3,casa,False,2,Morning, ,6.0
 21,ssssss,4,50,4,840,3,casa,False,4,Afternoon, ,16.0
+22,morir,7,20,2,945,1,cementerio,True,3,Afternoon, ,21.0
+23,frfrfr,3,34,4,936,3,casa,False,4,Morning, ,21.0
