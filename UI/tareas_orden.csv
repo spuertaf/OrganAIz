@@ -1,0 +1,22 @@
+TaskID,TaskType,Name,AvgTime,Urgency,TimeStart,Deadline,Location,IsHobby,Recurrency,BestOn,Involves,Parent
+1,1,desayunar,40,5,400,1,casa,False,7,morning,,
+2,3,aspirar la casa,40,5,625,6,mi casa,falso,Tris,mañana,no,1.0
+3,2,bañarse,45,2,525,1,casa,False,6,morning,,1.0
+4,3,sacar al perro,30,5,530,2,casa,False,7,morning,perro,1.0
+5,4,hacer la tarea,60,7,590,5,biblioteca,False,5,afternoon,,3.0
+6,4,estudiar para el parcial,65,9,600,2,biblioteca,False,2,afternoon,,18.0
+7,5,hacer estiramientos,10,2,540,7,casa,False,4,morning,,1.0
+8,6,regar plantas,15,7,605,5,casa,False,2,morning,plantas,18.0
+9,1,almorzar,40,4,720,1,restaurante,False,7,afternoon,amigos,6.0
+10,5,hacer ejercicio,50,3,630,4,gimnasio,False,5,afternoon,,8.0
+11,7,escuchar musica,20,1,660,7,casa,True,2,morning,,5.0
+12,4,leer documentacion,50,5,645,6,biblioteca,False,4,afternoon,companierosDeClase,8.0
+13,7,ver netflix,60,3,655,8,casa,True,3,afternoon,,5.0
+14,8,reunirse con amigos,80,4,780,8,casaAmigos,True,2,afternoon,amigos,13.0
+15,9,ordenar el cuarto,45,4,750,5,casa,False,5,afternoon,,13.0
+16,saltar,Salud Física,20,3,800,2,casa,True,2,Morning,,17.0
+17,aa,Actividad de Mascota,34,4,682,2,casa,False,2,Morning,,10.0
+18,nadar,Salud Física,30,4,560,3,piscina,True,2,Morning,,4.0
+19,pasear,Gustos,20,2,750,2,casa,True,3,Morning, ,17.0
+20,ss,2,23,3,670,3,casa,False,2,Morning, ,6.0
+21,ssssss,4,50,4,840,3,casa,False,4,Afternoon, ,16.0

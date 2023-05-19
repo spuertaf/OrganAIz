@@ -1,1 +1,2 @@
 TaskID,TaskType,Name,AvgTime,Urgency,TimeStart,Deadline,Location,IsHobby,Recurrency,BestOn,Involves,Parent
+1,3,aspirar la casa,40,5,10:25,6,mi casa,falso,Tris,mañana,no
